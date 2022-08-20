@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_header" />
+
+    <EditText
+        android:id="@+id/et_run_package"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="실행하고자 하는 앱 패키지 명을 입력하세요."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_run_package"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="입력한 대상 패키지 앱 실행" />
+
+    <EditText
+        android:id="@+id/et_schema_send_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="요청 아이디를 입력하여 주세요."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_schema_send_msg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="요청 메시지를 입력하여 주세요."
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_schema_res_msg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:hint="응답 메시지가 표시됩니다." />
+
+    <Button
+        android:id="@+id/btn_url_schema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL 스키마 이용 앱 실행" />
+
+</LinearLayout>

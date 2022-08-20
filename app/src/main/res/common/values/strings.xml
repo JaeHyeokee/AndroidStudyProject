@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MainProj</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="permission">%PER% 권한이 거부된 상태입니다.\n해당 기능 권한 취득을 위해 앱 정보\n화면에서 권한 변경이 필요합니다.\n<b>아니오</b>를 클릭하실 경우 이전 화면으로 \n이동합니다.\n이동하시겠습니까?</string>
+
+</resources>

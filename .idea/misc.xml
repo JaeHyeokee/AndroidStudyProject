@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/App/Dkit/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Dkit/Sdk/platforms/android-32/data/res/layout/simple_list_item_single_choice.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/async/layout/activity_async.xml" value="0.3296875" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/drawable/ic_back_arrow.xml" value="0.158" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/drawable/ic_close.xml" value="0.1" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/drawable/ic_forward_arrow.xml" value="0.1" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/drawable/ic_menu.xml" value="0.127" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/drawable/ic_plus.xml" value="0.1665" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/drawable/ic_question.xml" value="0.1" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/layout/activity_basic.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/layout/activity_main.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/layout/dialog_permission.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/layout/fragment_post.xml" value="0.22" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/common/layout/layout_header.xml" value="0.2635416666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/dialog/drawable/background_dialog.xml" value="0.1" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/dialog/layout/activity_custom_dialog.xml" value="0.5" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/dialog/layout/dialog_custom.xml" value="0.30648148148148147" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/dialog/layout/layout_dialog_confirm.xml" value="0.3307291666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/dialog/layout/layout_dialog_date.xml" value="0.3296875" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1535" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/etc/drawable/ic_data_collection.xml" value="0.114" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/etc/layout/activity_result_code.xml" value="0.75" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/fonts/layout/activity_font.xml" value="0.5" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/handle/layout/activity_handler.xml" value="0.5" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/keyboard/drawable/pin_bg.xml" value="0.1665" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/keyboard/drawable/pin_normal.xml" value="0.1665" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/keyboard/drawable/pin_write.xml" value="0.1665" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/keyboard/layout/activity_pin.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layout/activity_basic.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layout/activity_constraint.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layout/activity_frame.xml" value="0.3338541666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layout/activity_linear.xml" value="0.32839632277834524" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layout/activity_main.xml" value="0.3175925925925926" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layout/activity_relative.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layouts/layout/activity_constraint.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layouts/layout/activity_frame.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layouts/layout/activity_linear.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/layouts/layout/activity_relative.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/list/drawable/ic_profile.xml" value="0.1545" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/list/drawable/ic_woman_profile.xml" value="0.1545" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/list/layout/activity_array.xml" value="0.3338541666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/list/layout/activity_click_apply.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/list/layout/activity_custom_list.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/list/layout/activity_recycle.xml" value="0.5" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/list/layout/item_click_apply.xml" value="0.67" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/list/layout/item_custom_list.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/map/layout/activity_map.xml" value="0.3338541666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/map/layout/layout_google.xml" value="0.3338541666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1535" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/navi/drawable/ic_home.xml" value="0.127" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/navi/drawable/ic_list.xml" value="0.127" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/navi/drawable/ic_post.xml" value="0.127" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/navi/layout/activity_navi.xml" value="0.25" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/navi/layout/navi_item.xml" value="0.3194444444444444" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/navi/menu/menu_item.xml" value="0.25" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/noti/layout/acitivity_noti.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/noti/layout/activity_noti.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/pref/layout/activity_pref.xml" value="0.5" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/prov/layout/activity_content_provider.xml" value="0.25" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/prov/layout/item_contact_info.xml" value="0.3307291666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/receiver/layout/activity_broadcast_receiver.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/schema/layout/activity_url_schema.xml" value="0.5" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/scroll/layout/activity_scroll.xml" value="0.32737487231869256" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/scroll/layout/layout_content.xml" value="0.33489583333333334" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/scroll/layout/layout_title.xml" value="0.3338541666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/scroll/layout/layout_title2.xml" value="0.3338541666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/tab/layout/activity_tab.xml" value="0.3338541666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/toast/layout/activity_custom_toast.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/toast/layout/toast_custom.xml" value="0.33" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/toast/layout/toast_custom_image.xml" value="0.3307291666666667" />
+        <entry key="..\:/App/Ws/AndroidStudio/MainProj/app/src/main/res/web/layout/activity_web.xml" value="0.33489583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

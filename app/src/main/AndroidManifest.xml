@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.sample.mainproj">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CUSTOM_CONTACTS" /> <!-- Ctrl + / : 주석 -->
+    <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" /> -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- MapActivity에서 사용 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <permission
+        android:name="android.permission.READ_CUSTOM_CONTACTS"
+        android:protectionLevel="normal" />
+
+    <queries>
+        <package android:name="com.android.sample.subproj" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <service
+            android:name=".service.LocationService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.service.LOCATION" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_key" />
+
+        <activity
+            android:name=".activity.MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BroadCastReceiverActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UrlSchemaActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="android"
+                    android:scheme="mpp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ContentProviderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CustomToastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CustomDialogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AsyncTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HandlerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SharedPrefActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.NaviActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ClickApplyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RecycleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CustomListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ArrayListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.KeyBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ScrollActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.FontActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ResultCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.BasicActivity"
+            android:exported="true" />
+
+        <receiver
+            android:name=".receiver.SMSReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.NotificationCancelReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.NOTIFICATION_CANCEL" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

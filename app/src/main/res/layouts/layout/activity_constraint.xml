@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/nexon"
+        android:padding="20dp"
+        android:text="MY FIRST APP"
+        android:textColor="#8080FF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_first"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="텍스트를 입력하세요."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/tv_first"
+        app:layout_constraintStart_toStartOf="@+id/tv_first"
+        app:layout_constraintTop_toBottomOf="@+id/tv_first" />
+
+    <Button
+        android:id="@+id/btn_first"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="버튼"
+        app:layout_constraintEnd_toEndOf="@+id/tv_first"
+        app:layout_constraintStart_toStartOf="@+id/tv_first"
+        app:layout_constraintTop_toBottomOf="@+id/et_first" />
+
+    <ImageButton
+        android:id="@+id/ibtn_first"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="카카오톡 버튼"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/tv_first"
+        app:layout_constraintStart_toStartOf="@+id/tv_first"
+        app:layout_constraintTop_toBottomOf="@+id/btn_first"
+        app:srcCompat="@drawable/kakao_btn" />
+
+    <Switch
+        android:id="@+id/sw_first"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:showText="true"
+        android:text="스위치"
+        android:textOff="오프"
+        android:textOn="온"
+        app:layout_constraintEnd_toEndOf="@+id/tv_first"
+        app:layout_constraintStart_toStartOf="@+id/tv_first"
+        app:layout_constraintTop_toBottomOf="@+id/ibtn_first" />
+
+    <CheckBox
+        android:id="@+id/chk_first_1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:text="선택1"
+        app:layout_constraintStart_toStartOf="@+id/tv_first"
+        app:layout_constraintTop_toBottomOf="@+id/sw_first" />
+
+    <CheckBox
+        android:id="@+id/chk_first_2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="선택2"
+        app:layout_constraintBottom_toBottomOf="@+id/chk_first_1"
+        app:layout_constraintEnd_toEndOf="@+id/tv_first"
+        app:layout_constraintTop_toTopOf="@+id/chk_first_1" />
+
+    <ToggleButton
+        android:id="@+id/tbtn_first"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:checked="true"
+        android:text="ToggleButton"
+        android:textOff="꺼짐"
+        android:textOn="켜짐"
+        app:layout_constraintEnd_toEndOf="@+id/tv_first"
+        app:layout_constraintStart_toStartOf="@+id/tv_first"
+        app:layout_constraintTop_toBottomOf="@+id/chk_first_1" />
+
+    <RadioGroup
+        android:id="@+id/rg_first"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/tv_first"
+        app:layout_constraintStart_toStartOf="@+id/tv_first"
+        app:layout_constraintTop_toBottomOf="@+id/tbtn_first">
+
+        <RadioButton
+            android:id="@+id/rbtn_first_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="버튼1" />
+
+        <RadioButton
+            android:id="@+id/rbtn_first_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="버튼2" />
+
+        <RadioButton
+            android:id="@+id/rbtn_first_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="버튼3" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/sp_first"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/numbers"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_first" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_first"
+        app:srcCompat="@drawable/steak" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

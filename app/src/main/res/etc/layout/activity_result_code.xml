@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_header" />
+
+    <Button
+        android:id="@+id/btn_res_code_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과 코드 전달 화면 종료" />
+
+    <Button
+        android:id="@+id/btn_res_param_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="파라메터 전달 화면 종료" />
+
+    <Button
+        android:id="@+id/btn_req_code_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="요청 코드에 따른 응답" />
+
+</LinearLayout>

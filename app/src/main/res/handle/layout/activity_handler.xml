@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_header" />
+
+    <TextView
+        android:id="@+id/tv_handler_time"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:text="- 0 -"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_not_handler_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="핸들러 미사용 시작 (에러 로그 발생 확인)" />
+
+    <Button
+        android:id="@+id/btn_handler_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="핸들러 사용 시작" />
+
+    <Button
+        android:id="@+id/btn_handler_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="핸들러 사용 중지" />
+
+    <Button
+        android:id="@+id/btn_handler_delay_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="핸들러 지연 실행 (3초후 토스트 메시지)" />
+
+    <Button
+        android:id="@+id/btn_handler_delay_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="핸들러 지연 실행 취소" />
+
+    <Button
+        android:id="@+id/btn_timer_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="타이머 사용 시작" />
+
+    <RadioGroup
+        android:id="@+id/rg_timer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_timer_wiget"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="true"
+            android:gravity="center"
+            android:text="위젯 post 사용" />
+
+        <RadioButton
+            android:id="@+id/rb_timer_runonui"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="runOnUI 사용" />
+
+        <RadioButton
+            android:id="@+id/rb_timer_handler"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="handler 사용" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_timer_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="타이머 사용 중지" />
+
+</LinearLayout>

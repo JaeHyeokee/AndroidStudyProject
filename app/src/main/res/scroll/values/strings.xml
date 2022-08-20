@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scroll_content">
+        레이아웃이 화면에 넘칠때 스크롤 뷰를 넣어\n스크롤 효과를 낼 수 있습니다.\n수직으로 스크롤 하는 기능을 하며,\n수평으로 스크롤 하는 뷰는\n수평 스크롤 뷰가 따로 존재합니다.
+    </string>
+</resources>

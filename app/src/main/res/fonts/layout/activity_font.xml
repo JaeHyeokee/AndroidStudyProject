@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_header" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font 테스트 입니다."
+        android:textSize="25dp"
+        android:typeface="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font 테스트 입니다."
+        android:textSize="25dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font 테스트 입니다."
+        android:textSize="25dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font 테스트 입니다."
+        android:textSize="25dp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kangwon"
+        android:text="Font 테스트 입니다."
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tv_font_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font 테스트 입니다."
+        android:textSize="25dp" />
+
+</LinearLayout>

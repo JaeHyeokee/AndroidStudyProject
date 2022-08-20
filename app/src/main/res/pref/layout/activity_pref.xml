@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="ID" />
+
+        <EditText
+            android:id="@+id/et_pref_id"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="Input Your ID"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="PW" />
+
+        <EditText
+            android:id="@+id/et_pref_pw"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="Input Your Password"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/et_pref_name"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="Input Your Name"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="AGE" />
+
+        <EditText
+            android:id="@+id/et_pref_age"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="Input Your Age"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_pref_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE" />
+
+    <Button
+        android:id="@+id/btn_pref_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOAD" />
+
+</LinearLayout>
