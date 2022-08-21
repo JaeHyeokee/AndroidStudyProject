@@ -17,6 +17,17 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!--
+    PhotoActivity에서 사용
+    https://developer.android.com/training/camera/photobasics?hl=ko 참조
+    현재 안드로이드 버전에서는 해당 권한이 없어도 동작한다.
+    안드로이드 4.4 버전 이상의 경우 외부 저장소에 접근(사진 파일 저장을 위해)
+    을 하기 위해서는 아래에 해당하는 권한이 필요하기 때문에 정의를 하여준다.
+    인텐트를 사용해 ACTION_IMAGE_CAPTURE 으로 카메라 접근하는 경우는
+    android.permission.CAMERA 권한이 필요하지 않기 때문에 추가하지 않는다.
+    -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <permission
         android:name="android.permission.READ_CUSTOM_CONTACTS"
@@ -36,6 +47,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.PhotoActivity"
+            android:exported="false" />
+
         <service
             android:name=".service.LocationService"
             android:enabled="true"
@@ -168,6 +183,16 @@
                 <action android:name="android.intent.action.NOTIFICATION_CANCEL" />
             </intent-filter>
         </receiver>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.android.sample.mainproj"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/photo_file_path" />
+        </provider>
     </application>
 
 </manifest>

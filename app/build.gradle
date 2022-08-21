@@ -51,6 +51,7 @@ android {
                     'src\\main\\res\\receiver',
                     'src\\main\\res\\noti',
                     'src\\main\\res\\map',
+                    'src\\main\\res\\photo',
                 ]
             }
         }

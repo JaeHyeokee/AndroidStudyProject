@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external_path
+        name="photo"
+        path="Android/data/com.android.sample.mainproj/files/Pictures" />
+</Paths>
