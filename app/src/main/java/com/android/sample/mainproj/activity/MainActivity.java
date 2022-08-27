@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity
 		"커스텀 리스트 뷰 활용", "리사이클 뷰 응용", "클릭 이벤트 응용", "네비게이션 뷰 활용",
 		"탭 뷰 활용", "공유 설정 활용", "핸들러 활용", "비동기 작업 사용", "커스텀 다이얼로그 활용",
 		"커스텀 토스트 활용", "컨텐트 프로바이더 사용", "URL 스키마 활용", "웹뷰 활용",
-		"브로드캐스트 리시버 사용", "알림 사용", "맵 정보 확인", "카메라 및 갤러리 사용"
+		"브로드캐스트 리시버 사용", "알림 사용", "맵 정보 확인", "카메라 및 갤러리 사용",
+		"음악 서비스 이용"
 	};
 
 	private ActivityResultLauncher<Intent> resultLauncher;
@@ -196,6 +197,10 @@ public class MainActivity extends AppCompatActivity
 				else if(item.equals("카메라 및 갤러리 사용"))
 				{
 					intent = new Intent(activity, PhotoActivity.class);
+				}
+				else if(item.equals("음악 서비스 이용"))
+				{
+					intent = new Intent(activity, MusicServiceActivity.class);
 				}
 
 				if(intent != null)

@@ -52,6 +52,7 @@ android {
                     'src\\main\\res\\noti',
                     'src\\main\\res\\map',
                     'src\\main\\res\\photo',
+                    'src\\main\\res\\music',
                 ]
             }
         }

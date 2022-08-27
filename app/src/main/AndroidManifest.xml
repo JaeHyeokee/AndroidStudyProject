@@ -11,8 +11,7 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-    <!-- MapActivity에서 사용 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- MapActivity에서 사용 -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
@@ -47,6 +46,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activity.MusicServiceActivity"
+            android:exported="false" />
         <activity
             android:name=".activity.PhotoActivity"
             android:exported="false" />
@@ -59,7 +62,26 @@
                 <action android:name="com.android.service.LOCATION" />
             </intent-filter>
         </service>
-
+        <service
+            android:name=".service.LocalMusicService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.service.MUSIC" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.RestartService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.RemoteMusicService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.service.REMOTE_MUSIC" />
+            </intent-filter>
+        </service>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_map_key" />
@@ -183,12 +205,12 @@
                 <action android:name="android.intent.action.NOTIFICATION_CANCEL" />
             </intent-filter>
         </receiver>
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.android.sample.mainproj"
             android:exported="false"
-            android:grantUriPermissions="true"
-            >
+            android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/photo_file_path" />
